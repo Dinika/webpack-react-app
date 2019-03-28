@@ -1,0 +1,15 @@
+{
+  "name": "webpack-react-app",
+  "version": "1.0.0",
+  "description": "Use webpack to create the burger builder react app (instead of using the CRA)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dinika",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
