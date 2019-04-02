@@ -7,12 +7,12 @@ const AsyncPizza = asyncComponent(() => {
   return import('./containers/Pizza.js');
 });
 
-class Pizza extends Component {
+class App extends Component {
   render() {
     return (
       <div>
         <div>
-          <Link to="/">Users</Link> |<Link to="/pizza">Pizza</Link>
+          <Link to="/">Users</Link> | <Link to="/pizza">Pizza</Link>
         </div>
         <div>
           <Route path="/" exact component={Users} />
@@ -23,4 +23,4 @@ class Pizza extends Component {
   }
 }
 
-export default Pizza;
+export default App;
