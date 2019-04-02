@@ -28,9 +28,10 @@ module.exports = {
           },
           {
             loader: 'css-loader',
-            importLoaders: 1,
             options: {
+              importLoaders: 1,
               modules: true,
+              chunkFilename: '[id].js',
               localIdentName: '[name]__[local]__[hash:base64:5]'
             }
           },
